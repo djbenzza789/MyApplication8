@@ -13,53 +13,64 @@
 
     <!--Content-->
     <LinearLayout
-        android:layout_margin="50dp"
-        android:orientation="vertical"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:orientation="vertical">
 
         <!--Logo-->
         <ImageView
-            android:layout_gravity="center_horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
             android:src="@drawable/logo"
 
             />
         <!--user-->
         <EditText
-            android:inputType="text"
-            android:hint="user :"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="user :"
+            android:inputType="text"
 
             />
         <!--Password-->
         <EditText
-            android:hint="password :"
-            android:inputType="textPassword"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:hint="password :"
+            android:inputType="textPassword"
 
             />
         <!--Login-->
         <Button
-            android:text="login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:text="login"
 
             />
         <!--Register-->
         <TextView
-            android:layout_marginTop="20dp"
-            android:text="New Register"
-            android:textSize="17sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="New Register"
+            android:textSize="17sp"
 
             />
 
+        <TextView
+            android:clickable="true"
+            android:id="@+id/textRegister"
+            android:textColor="@color/colorAccent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Forget the password"
+            android:textSize="17sp"
 
+            />
 
 
     </LinearLayout>
