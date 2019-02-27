@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fujiza">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <!--Logo-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo2"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="สโมสรฟุตบอลแมนเชสเตอร์ยูไนเต็ด (อังกฤษ: Manchester United Football Club) เป็นสโมสรฟุตบอลที่มีชื่อเสียงของอังกฤษ มีสนามเหย้าคือโอลด์แทรฟฟอร์ดในเมืองแมนเชสเตอร์ แมนเชสเตอร์ยูไนเต็ดเป็นสโมสรที่ประสบความสำเร็จสูงสโมสรหนึ่ง
+             โดยชนะเลิศแชมป์ลีก 20 ครั้ง (เอฟเอ พรีเมียร์ลีก/ดิวิชัน 1) ชนะเอฟเอคัพ 12 ครั้ง ฟุตบอลลีกคัพ 5 ครั้ง ชนะยูโรเปียนคัพ/ยูฟ่า แชมเปียนส์ลีก 3 ครั้ง ชนะเอฟเอคอมมิวนิตีชีลด์ 21 ครั้ง และชนะยูฟ่า คัพ วินเนอร์สคัพ อินเตอร์เนชันแนลคัพ ยูโรเปียนซูเปอร์คัพ ฟุตบอลชิงแชมป์สโมสรโลก และ ยูฟ่ายูโรปาลีก อย่างละ 1 ครั้ง แมนเชสเตอร์ยูไนเต็ดเป็นสโมสรกีฬาที่ได้รับความนิยม โดยแมนเชสเตอร์ยูไนเต็ดมีสถิติผู้เข้าชมในสนามมากที่สุดในฟุตบอลอังกฤษตลอด 34 ฤดูกาล ยกเว้นในฤดูกาล 1987–89 ที่มีการปรับปรุงสนามโอลด์แทรฟฟอร์ดแมนเชสเตอร์ยูไนเต็ดเป็นสโมสรหนึ่งในกลุ่มจี-14
+            ตั้งแต่ปี ค.ศ. 1991 สโมสรปรับปรุงรูปแบบดำเนินกิจการเป็นบริษัทมหาชน อย่างไรก็ตาม ต่อมานักธุรกิจชาวอเมริกัน มัลคอล์ม เกลเซอร์ เข้าครอบครองแบบไม่เป็นมิตร
+            เป็นผลสำเร็จ และนำสโมสรออกจากตลาดหลักทรัพย์ลอนดอน ตั้งแต่ปี ค.ศ. 2005"
+        />
+
+
+    </LinearLayout>
+</FrameLayout>

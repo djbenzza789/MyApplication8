@@ -49,19 +49,9 @@
             android:text="login"
 
             />
-        <!--Register-->
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center_horizontal"
-            android:text="New Register"
-            android:textSize="17sp"
-
-            />
-
         <TextView
             android:clickable="true"
-            android:id="@+id/textRegister"
+            android:id="@+id/txtRegister"
             android:textColor="@color/colorAccent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -71,7 +61,27 @@
             android:textSize="17sp"
 
             />
+        <TextView
+            android:clickable="true"
+            android:id="@+id/fuji"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Next"
+            android:textSize="17sp"
 
+            />
+        <TextView
+            android:clickable="true"
+            android:id="@+id/fuji1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="Next1"
+            android:textSize="17sp"
+            />
 
     </LinearLayout>
 </FrameLayout>

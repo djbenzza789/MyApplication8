@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fuji">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+         />
+    <!--Content-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <!--Logo-->
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo1"
+
+            />
+        <TextView
+            android:textSize="17dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:text="สโมสรฟุตบอลเชลซี (อังกฤษ: Chelsea Football Club) เป็นสโมสรฟุตบอลอาชีพที่ตั้งอยู่ในลอนดอน ประเทศอังกฤษ ซึ่งเล่นอยู่ในพรีเมียร์ลีก ลีกสูงสุดของฟุตบอลอังกฤษ สโมสรชนะการแข่งขันลีก 8 ครั้ง ถ้วยเอฟเอแปดครั้ง ถ้วยลีกคัพห้าครั้ง เอฟเอคอมมิวนิตี้ชิลด์สี่ครั้ง ยูฟ่าคัพวินเนอร์คัพสองครั้ง ยูฟ่าแชมเปี้ยนส์ลีกหนึ่งครั้ง ยูฟ่ายูโรป้าลีกหนึ่งครั้ง และยูฟ่าซูเปอร์คัพหนึ่งครั้ง สโมสรฟุตบอลเชลซีก่อตั้งในปี 1905 โดยมีสนามเหย้าของสโมสรคือสแตมฟอร์ดบริดจ์ นับตั้งแต่ก่อตั้ง เชลซีชนะรายการ เฟิร์สดีวิชั่น เพียงครั้งเดียวในปี 1955
+
+โชเซ่ มูรินโญ่ เป็นผู้จัดการทีมที่ประสบความสำเร็จสูงสุดของสโมสรในด้านจำนวนถ้วยที่ได้รับ และทีมที่ชนะของเขาได้บันทึกเป็นสถิติของอังกฤษโดยเป็นทีมที่ได้รับคะแนนสูงสุดระหว่างปี 2004 และ 2005 สโมสรมีคู่ปรับกับสโมสรที่เป็นเพื่อนบ้านอย่าง ฟูแลม อาร์เซนอล และ ทอตนัมฮอตสเปอร์"
+            />
+
+
+
+
+
+    </LinearLayout>
+</FrameLayout>
