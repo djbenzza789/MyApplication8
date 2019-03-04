@@ -52,11 +52,11 @@ public class RegisterFragment extends Fragment {
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 aBoolean = false;
                 switch (checkedId) {
-                    case R.id.radMale;
-                    genderString = "Male"
+                    case R.id.radMale:
+                    genderString = "Male";
                     break;
-                    case R.id.radFemale;
-                    genderString = "FeMale"
+                    case R.id.radFeMale:
+                    genderString = "FeMale";
                     break;
                 }
             }
@@ -103,9 +103,25 @@ public class RegisterFragment extends Fragment {
             myAlert.normalDialog("NoGender","Please Choose Gender");
         } else {
 
-            
+            try {
 
-        }
+                MyConstant myConstant = new MyConstant();
+                AddUserThread addUserThread = new AddUserThread(getActivity());
+                addUserThread.execute(name, user, password, genderString, myConstant.getUrlAddUser());
+
+                String result = addUserThread.get();
+
+                if (Boolean.parseBoolean(result)) {
+                    getActivity().getSupportFragmentManager().popBackStack();
+                }else {
+                    myAlert.normalDialog("Cannot Register", "Please Try Again");
+                }
+
+            }catch (Exception e){
+                e.printStackTrace();
+            }
+
+        }//if
 
     }
 

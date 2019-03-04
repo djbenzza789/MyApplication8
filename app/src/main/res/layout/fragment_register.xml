@@ -47,12 +47,14 @@
 
                 <!--Male-->
                 <RadioButton
+                    android:id="@+id/radMale"
                     android:layout_marginLeft="20dp"
                     android:text="Male"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content" />
                 <!--Female-->
                 <RadioButton
+                    android:id="@+id/radFeMale"
                     android:layout_marginLeft="20dp"
                     android:text="Female"
                     android:layout_width="wrap_content"
